@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:background="#AED9ED"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:text="Convert Your Unit!"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#F60202"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bntkg_gm"
+        android:layout_below="@+id/heading"
+        android:text="Kg-gm"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:onClick="kggm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bntgm_kg"
+        android:layout_below="@+id/bntkg_gm"
+        android:text="gm-kg"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bntkg_pounds"
+        android:layout_below="@+id/bntgm_kg"
+        android:text="kg-pounds"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bntpounds_kg"
+        android:layout_below="@+id/bntkg_pounds"
+        android:text="pounds-kg"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/incci_cm"
+        android:layout_below="@+id/bntpounds_kg"
+        android:text="Inchi - cm"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/cm_inchi"
+        android:layout_below="@+id/incci_cm"
+        android:text="cm-inchi"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/meter_mils"
+        android:layout_below="@+id/cm_inchi"
+        android:text="meter - mils"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/mils_meter"
+        android:layout_below="@+id/meter_mils"
+        android:text="mils - meter"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

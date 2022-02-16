@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    tools:context=".kggm">
+
+
+    <TextView
+        android:id="@+id/kggm_head"
+        android:text="KG to GM"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/kggm_etext"
+        android:hint="Enter the kg value"
+        android:layout_below="@+id/kggm_head"
+        android:layout_marginTop="30dp"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/kggm_btn"
+        android:text="Convert"
+        android:layout_below="@+id/kggm_etext"
+        android:layout_marginTop="20dp"
+        android:onClick="convertKgGm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/dis_kggm"
+        android:layout_below="@+id/kggm_btn"
+        android:padding="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/kggm_pic"
+        android:layout_below="@+id/dis_kggm"
+        android:src="@drawable/kg_gm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
