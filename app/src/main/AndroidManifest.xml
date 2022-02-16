@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UnitConverter">
         <activity
+            android:name=".milsme"
+            android:exported="false" />
+        <activity
+            android:name=".memils"
+            android:exported="false" />
+        <activity
+            android:name=".cmin"
+            android:exported="false" />
+        <activity
+            android:name=".incm"
+            android:exported="false" />
+        <activity
+            android:name=".poukg"
+            android:exported="false" />
+        <activity
+            android:name=".kgpou"
+            android:exported="false" />
+        <activity
+            android:name=".gmkg"
+            android:exported="false" />
+        <activity
             android:name=".kggm"
             android:exported="false" />
         <activity

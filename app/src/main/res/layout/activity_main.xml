@@ -35,6 +35,7 @@
         android:text="gm-kg"
         android:layout_marginTop="20dp"
         android:textStyle="italic"
+        android:onClick="gmkg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -44,6 +45,7 @@
         android:text="kg-pounds"
         android:layout_marginTop="20dp"
         android:textStyle="italic"
+        android:onClick="kgpou"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -53,42 +55,47 @@
         android:text="pounds-kg"
         android:layout_marginTop="20dp"
         android:textStyle="italic"
+        android:onClick="poukg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/incci_cm"
         android:layout_below="@+id/bntpounds_kg"
-        android:text="Inchi - cm"
+        android:text="Inches - cm"
         android:layout_marginTop="20dp"
         android:textStyle="italic"
+        android:onClick="incm"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/cm_inchi"
         android:layout_below="@+id/incci_cm"
-        android:text="cm-inchi"
+        android:text="cm-inches"
         android:layout_marginTop="20dp"
         android:textStyle="italic"
+        android:onClick="cmin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/meter_mils"
         android:layout_below="@+id/cm_inchi"
-        android:text="meter - mils"
+        android:text="meters - mils"
         android:layout_marginTop="20dp"
         android:textStyle="italic"
+        android:onClick="memils"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/mils_meter"
         android:layout_below="@+id/meter_mils"
-        android:text="mils - meter"
+        android:text="mils - meters"
         android:layout_marginTop="20dp"
         android:textStyle="italic"
+        android:onClick="milsme"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </RelativeLayout>

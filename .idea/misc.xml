@@ -3,8 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android/practice/UnitConverter2/app/src/main/res/layout/activity_cmin.xml" value="0.18697916666666667" />
+        <entry key="..\:/Android/practice/UnitConverter2/app/src/main/res/layout/activity_gmkg.xml" value="0.22780797101449277" />
+        <entry key="..\:/Android/practice/UnitConverter2/app/src/main/res/layout/activity_incm.xml" value="0.18697916666666667" />
         <entry key="..\:/Android/practice/UnitConverter2/app/src/main/res/layout/activity_kggm.xml" value="0.22509057971014493" />
+        <entry key="..\:/Android/practice/UnitConverter2/app/src/main/res/layout/activity_kgpou.xml" value="0.264" />
         <entry key="..\:/Android/practice/UnitConverter2/app/src/main/res/layout/activity_main.xml" value="0.30583873957367935" />
+        <entry key="..\:/Android/practice/UnitConverter2/app/src/main/res/layout/activity_memils.xml" value="0.18697916666666667" />
+        <entry key="..\:/Android/practice/UnitConverter2/app/src/main/res/layout/activity_milsme.xml" value="0.22780797101449277" />
+        <entry key="..\:/Android/practice/UnitConverter2/app/src/main/res/layout/activity_poukg.xml" value="0.18697916666666667" />
       </map>
     </option>
   </component>
